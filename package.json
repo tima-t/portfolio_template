@@ -1,0 +1,28 @@
+{
+  "name": "porfolio_template",
+  "version": "1.0.0",
+  "description": "simple template in html & css & js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tima-t/porfolio_template.git"
+  },
+  "keywords": [
+    "template",
+    "design",
+    "responsive",
+    "html5"
+  ],
+  "author": "Tito Titov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tima-t/porfolio_template/issues"
+  },
+  "homepage": "https://github.com/tima-t/porfolio_template#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

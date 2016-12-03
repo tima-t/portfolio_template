@@ -1,0 +1,63 @@
+header{
+	padding-top:30px;
+	padding-bottom:60px;
+	background-color: lightgray;
+}
+
+.welcome{
+	text-align: center;
+	padding-top: 90px;
+}
+
+.heading{
+	padding-top:30px;
+	text-align: center;
+	font-weight: bolder;
+	font-size:20px;
+}
+
+.hButton{
+	padding-top:40px;
+	text-align: center;
+}
+
+.hButton>button{
+	background-color: rgb(254,209,54);
+	color:white;
+	padding:10px;
+
+}
+
+.servHeading{
+	padding-top:60px;
+	font-weight: bold;
+	font-size:17px;
+	text-align:center;
+}
+
+.servSmall{
+	font-size:10px;
+	color:grey;
+	text-align:center;
+	padding-top:10px;
+}
+
+.servIcons{
+	padding:60px;
+}
+
+.iconT{
+	color:rgb(254,209,54);
+}
+
+.centerT{
+	text-align:center;
+}
+
+#PortFolio{
+	background-color: lightgray;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+
