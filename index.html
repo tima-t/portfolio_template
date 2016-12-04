@@ -10,6 +10,10 @@
 	<!--Font awesome-->
 	<link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
 
+	<!--Slick-->
+	<link rel="stylesheet" type="text/css" href="./assets/slick/slick/slick.css"/>
+	<link rel="stylesheet" href="./assets/slick/slick/slick-theme.css">
+
 	<!--Light box-->
 	<link href="./assets/lightbox/dist/css/lightbox.css" rel="stylesheet">
 
@@ -22,19 +26,26 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="./assets/lightbox/dist/js/lightbox.js"></script>
+
+	<!--slick-->
+	<script type="text/javascript" src="./assets/slick/slick/slick.js"></script>
 	
 
 </head>
 <body>
 	<div class="container-fluid">
+		
+		<a href="#" class="back-to-top" style="display: inline;">
+			<i class="fa fa-arrow-circle-up"></i>
+		</a>
 		<header id="head">
 			<div class="row centerT">
-				<div class="col-xs-1 col-xs-offset-2">logo</div>
-				<div class="col-xs-1 col-xs-offset-2"><a href="#head">Home</a></div>
-				<div class="col-xs-1"><a href="#services">Services</a></div>
-				<div class="col-xs-1"><a href="#PortFolio">Portfolio</a></div>
-				<div class="col-xs-1"><a href="">About</a></div>
-				<div class="col-xs-1"><a href="">Contact</a></div>
+				<div class="col-xs-2 col-sm-1 col-sm-offset-2"><img src="./assets/images/logo.png" class="img-responsive" alt=""></div>
+				<div class="col-xs-2 col-sm-1 col-sm-offset-2"><a href="#head">Home</a></div>
+				<div class="col-xs-2 col-sm-1"><a href="#services">Services</a></div>
+				<div class="col-xs-2 col-sm-1"><a href="#PortFolio">Portfolio</a></div>
+				<div class="col-xs-2 col-sm-1"><a href="#about">About</a></div>
+				<div class="col-xs-2 col-sm-1"><a href="#contact">Contact</a></div>
 			</div>
 
 			<div class="row welcome">
@@ -48,6 +59,16 @@
 			<div class="row hButton">
 				<button>TELL ME MORE</button>
 			</div>
+
+			<div class="mySlick">
+  				<div class="slideT"><img src="./assets/images/fashion.png" width="400"   alt=""></div>
+  				<div class="slideT"><img src="./assets/images/game.png" width="400"   alt=""></div>
+  				<div class="slideT"><img src="./assets/images/lib.png"  width="400" alt=""></div>
+				<div class="slideT"><img src="./assets/images/logo.png" width="400"  alt=""></div>
+  				<div class="slideT"><img src="./assets/images/lucky.png" width="400" alt=""></div>
+  				<div class="slideT"><img src="./assets/images/profile.jpg"width="400"  alt=""></div>
+			</div>
+			
 
 		</header>
 
@@ -86,41 +107,173 @@
 					More about ourr best sellers
 				</div>
 			<div class="row servIcons centerT">
-					<div class="col-xs-2 col-xs-offset-2">
-						<div><a href="./assets/images/cv.png" data-lightbox="projects" data-title="Simple cv"><img src="./assets/images/cv.png" width="100%" height="200px" alt="cv project"></a></div>
+					<div class=" col-xs-5 col-sm-2 col-sm-offset-2">
+						<div><a href="./assets/images/cv.png" data-lightbox="projects" data-title="Simple cv"><img src="./assets/images/cv.png" class="img-responsive" alt="cv project"></a></div>
 						<b>Simple CV</b>
 						<p class="servSmall">You can check my SPA cv <a href="http://cv.t-titov.com">HERE</a></p>
 					</div>
-					<div class="col-xs-2 col-xs-offset-1 ">
-						<div><a href="./assets/images/lucky.png" data-lightbox="projects" data-title="Mobile App"><img src="./assets/images/lucky.png" width="100%" height="200px" alt="mobile app "></a></div>
+					<div class=" col-xs-5 col-sm-2 col-sm-offset-1 ">
+						<div><a href="./assets/images/lucky.png" data-lightbox="projects" data-title="Mobile App"><img src="./assets/images/lucky.png" class="img-responsive" alt="mobile app "></a></div>
 						<b>Mobile App</b>
 						<p class="servSmall">Link to mobile app : <a href=" https://play.google.com/store/apps/details?id=com.ionicframework.word510923">HERE</a></p>
 					</div>
-					<div class="col-xs-2 col-xs-offset-1 ">
-						<div><a href="./assets/images/lib.png" data-lightbox="projects" data-title="light library"><img src="./assets/images/lib.png" width="100%" height="200px" alt="simple lib"></a></div>
+					<div class="col-xs-5 col-sm-2 col-sm-offset-1 ">
+						<div><a href="./assets/images/lib.png" data-lightbox="projects" data-title="light library"><img src="./assets/images/lib.png" class="img-responsive " alt="simple lib"></a></div>
 						<b>Link to light library</b>
 						<p class="servSmall">Link to simple library : <a href="http://lib.t-titov.com/">HERE</a></p>
 					</div>
 			</div>
 
 				<div class="row servIcons centerT">
-					<div class="col-xs-2 col-xs-offset-2">
-						<div><a href="./assets/images/fashion.png" data-lightbox="projects" data-title="Fashion Site"><img src="./assets/images/fashion.png" width="100%" height="200px" alt="fashion site"></a></div>
+					<div class="col-xs-5 col-sm-2 col-sm-offset-2">
+						<div><a href="./assets/images/fashion.png" data-lightbox="projects" data-title="Fashion Site"><img src="./assets/images/fashion.png" class="img-responsive " alt="fashion site"></a></div>
 						<b>Link to siple fashion site</b>
 						<p class="servSmall">Link to fashion site <a href="http://fashion.t-titov.com/index.php">HERE</a></p>
 					</div>
-					<div class="col-xs-2 col-xs-offset-1 ">
-						<div><a href="./assets/images/wordpress.png" data-lightbox="projects" data-title="Wordpress Demo"><img src="./assets/images/wordpress.png" width="100%" height="200px" alt="wordpress site"></a></div>
+					<div class=" col-xs-5 col-sm-2 col-sm-offset-1 ">
+						<div><a href="./assets/images/wordpress.png" data-lightbox="projects" data-title="Wordpress Demo"><img src="./assets/images/wordpress.png" class="img-responsive " alt="wordpress site"></a></div>
 						<b>Wordpress site </b>
 						<p class="servSmall">Link to wordpress site <a href="http://www.wp-try.t-titov.com/">HERE</a></p>
 					</div>
-					<div class="col-xs-2 col-xs-offset-1 ">
-						<div><a href="./assets/images/game.png" data-lightbox="projects" data-title="Game JS"><img src="./assets/images/game.png" width="100%" height="200px" alt="simple game"></a></div>
+					<div class=" col-xs-5 col-sm-2 col-sm-offset-1 ">
+						<div><a href="./assets/images/game.png" data-lightbox="projects" data-title="Game JS"><img src="./assets/images/game.png" class="img-responsive " alt="simple game"></a></div>
 						<b>Simple game</b>
 						<p class="servSmall">Link to js game <a href="http://shootme.t-titov.com/">HERE</a></p>
 					</div>
 			</div>
-		</div>				
+		</div>
+		<div id="about">
+			<div class="row servHeading">
+					About us
+				</div>
+				<div class="row servSmall">
+					A brief history
+				</div>
+
+				<div class="row servIcons centerT">
+					<div class="col-xs-5 col-sm-2 col-sm-offset-2">
+						
+						<b>My beggining January 2015</b>
+						<p class="servSmall">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis consectetur mollitia blanditiis pariatur eius eveniet autem esse, temporibus, possimus quia minima dolores? Culpa magnam autem corporis adipisci maiores, numquam modi.</p>
+					</div>
+					<div class="col-xs-5 col-sm-2 col-sm-offset-1 ">
+						<div><a href="./assets/images/wordpress.png" data-lightbox="history" data-title="Wordpress Demo"><img src="./assets/images/wordpress.png" class="img-responsive img-circle" alt="wordpress site"></a></div>
+					</div>
+				</div>
+
+				<div class="row servIcons centerT">
+					<div class="col-xs-5 col-sm-2 col-sm-offset-5">
+						<div><a href="./assets/images/fashion.png" data-lightbox="history" data-title="Fashion Site"><img src="./assets/images/fashion.png" class="img-responsive img-circle" alt="fashion site"></a></div>
+					</div>
+					<div class="col-xs-5 col-sm-2 col-sm-offset-1 ">
+						<b>My intern July 2015</b>
+						<p class="servSmall">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quod, sit aspernatur consequatur doloremque officiis necessitatibus recusandae maxime laudantium qui doloribus molestias dolores numquam quidem quos, hic rem labore delectus.></p>
+					</div>
+				</div>	
+
+				<div class="row servIcons centerT">
+					<div class="col-xs-5 col-sm-2 col-sm-offset-2">	
+						<b>November 2015 Enter the long nights</b>
+						<p class="servSmall">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, veniam deleniti sit ut dolore quam iste. Iusto libero molestias earum possimus magnam est sit maxime consequuntur ratione! Omnis, debitis. Quis?</p>
+					</div>
+					<div class="col-xs-5 col-sm-2 col-sm-offset-1 ">
+						<div><a href="./assets/images/wordpress.png" data-lightbox="history" data-title="Wordpress Demo"><img src="./assets/images/wordpress.png" class="img-responsive img-circle"  alt="wordpress site"></a></div>
+					</div>
+				</div>
+
+				<div class="row servIcons centerT">
+					<div class="col-xs-5 col-sm-2 col-sm-offset-5">
+						<div><a href="./assets/images/fashion.png" data-lightbox="history" data-title="Fashion Site"><img src="./assets/images/fashion.png" class="img-responsive img-circle"  alt="fashion site"></a></div>
+					</div>
+					<div class="col-xs-5 col-sm-2 col-sm-offset-1 ">
+						<b>March 2016 New beggining </b>
+						<p class="servSmall">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem incidunt repudiandae facilis quod qui? Accusamus odio cupiditate tempora quam ducimus, ea dolore sapiente, ut delectus ratione blanditiis aliquid, quae unde.</p>
+					</div>
+				</div>
+
+				<div class="row servIcons centerT">
+					<div class="col-xs-5 col-sm-2 col-sm-offset-5">
+						<div><a href="./assets/images/fashion.png" data-lightbox="history" data-title="Fashion Site"><img src="./assets/images/fashion.png" class="img-responsive img-circle"  alt="fashion site"></a></div>
+					</div>
+				</div>
+		</div>
+
+		<div id="team">
+			<div class="row servHeading">
+					Our amazing team
+				</div>
+				<div class="row servSmall">
+					A brief description of members
+				</div>
+
+				<div class="row servIcons centerT">
+					<div class="col-xs-5 col-sm-2 col-sm-offset-2">
+						<div><a href="./assets/images/profile.jpg" data-lightbox="profiles" data-title="prof1"><img src="./assets/images/profile.jpg" class="img-responsive img-circle " alt="fashion site"></a></div>
+						<b>George</b>
+						<p class="servSmall">Coder</a></p>
+						<p>	<i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i> <i class="fa fa-envelope fa-lg" aria-hidden="true"></i></p>
+					</div>
+					<div class=" col-xs-5 col-sm-2 col-sm-offset-1 ">
+						<div><a href="./assets/images/profile.jpg" data-lightbox="profiles" data-title="prof2"><img src="./assets/images/profile.jpg" class="img-responsive img-circle " alt="wordpress site"></a></div>
+						<b>Vanesa</b>
+						<p class="servSmall">Grapchic designer</p>
+						<p>	<i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i> <i class="fa fa-envelope fa-lg" aria-hidden="true"></i></p>
+					</div>
+					<div class=" col-xs-5 col-sm-2 col-sm-offset-1 ">
+						<div><a href="./assets/images/profile.jpg" data-lightbox="profiles" data-title="prof3"><img src="./assets/images/profile.jpg" class="img-responsive img-circle " alt="simple game"></a></div>
+						<b>Honza</b>
+						<p class="servSmall">Ceo</a></p>
+						<p>	<i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i> <i class="fa fa-envelope fa-lg" aria-hidden="true"></i></p>
+					</div>
+			</div>
+				<div class="row servSmall textT">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolorum quod itaque a doloremque quis saepe laboriosam, nulla quam mollitia repellendus molestiae repudiandae illo reiciendis recusandae, enim, perferendis totam animi.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit excepturi, assumenda eaque beatae consequatur temporibus at placeat voluptatum reiciendis, esse natus officia odio asperiores totam quibusdam error reprehenderit, doloribus, itaque.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci consequatur neque fuga nulla itaque iure necessitatibus. A esse quisquam rerum sapiente necessitatibus dignissimos totam quo maxime cum! Earum, perspiciatis.s
+				</div>
+
+				<div class="row">
+					<div class=" col-xs-5 col-sm-2 col-sm-offset-1 "> <img src="./assets/images/wordpressL.png" alt=""></div>
+					<div class=" col-xs-5 col-sm-2 col-sm-offset-1 "><img src="./assets/images/wordpressL.png" alt=""></div>
+					<div class=" col-xs-5 col-sm-2 col-sm-offset-1 "><img src="./assets/images/wordpressL.png" alt=""></div>
+					<div class=" col-xs-5 col-sm-2 col-sm-offset-1 "><img src="./assets/images/wordpressL.png" alt=""></div>
+				</div>
+		</div>
+
+		<div id="contact">
+			<div class="row servHeading">
+					Contact us
+				</div>
+				<div class="row servSmall">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laborum odit, earum numquam vel aperiam! Saepe numquam error, laborum earum est ea aliquid culpa, reiciendis, fugiat consequuntur at corrupti quo.
+				</div>
+			
+			<div class="row formT">
+				<form>
+ 				 <div class="form-group col-xs-4 col-sm-offset-2">
+    				<input type="text" class="form-control" id="name" placeholder="Name">
+    				<input type="text" class="form-control" id="email" placeholder="Email">
+    				<input type="text" class="form-control" id="subject" placeholder="Subject">
+  				</div>
+				<div class="col-xs-4 ">
+					<textarea class="form-control" rows="5">
+					Your message here
+					</textarea>
+				</div>
+				</form>
+			</div>
+
+			<div class="row hButton">
+				<button>SEND MESSAGE</button>
+			</div>
+		</div>
+
+		<footer>
+			<div class="row footT">
+				&copy;2016 t-titov.com. <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i> <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+			</div>
+		</footer>
+
 	</div>
 	
 	<script>
@@ -129,5 +282,20 @@
 		'wrapAround': true
 	})
 	</script>
+	<script type="text/javascript">
+    $(document).ready(function(){
+		$('.mySlick').slick({
+  			dots: true,
+  			infinite: true,
+  			speed: 500,
+  			fade: true,
+			autoplay:true,
+			autoplaySpeed:1500,
+			arrows : false,
+  			
+
+		});
+    });
+  </script>
 </body>
 </html>

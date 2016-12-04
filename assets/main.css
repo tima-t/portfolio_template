@@ -1,7 +1,12 @@
 header{
 	padding-top:30px;
 	padding-bottom:60px;
-	background-color: lightgray;
+	color:white;
+}
+
+header a{
+	text-decoration: none;
+	color:white;
 }
 
 .welcome{
@@ -26,6 +31,10 @@ header{
 	color:white;
 	padding:10px;
 
+}
+
+#services{
+	background-color:white;
 }
 
 .servHeading{
@@ -60,4 +69,79 @@ header{
 	padding-bottom:30px;
 }
 
+#about{
+	background-color: white;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+
+}
+
+#team{
+	background-color: lightgray;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.textT{
+	padding-left:20px;
+	padding-right:20px;
+}
+#contact{
+	color:white;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.formT{
+	padding-top:40px;
+}
+
+.formT input{
+	margin:5px;
+}
+
+footer{
+	background-color: lightgray;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.slideT>img{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.mySlick{
+	padding-top: 30px;
+}
+
+.container-fluid{
+	background-image: url("./images/back.jpg");
+}
+
+.back-to-top { 
+background: none;
+margin: 0;
+position: fixed;
+bottom: 20px;
+right: 20px;
+width: 70px;
+height: 70px;
+z-index: 100;
+display: none; 
+text-decoration: none;
+color: deepskyblue; 
+}
+ 
+  
+ 
+.back-to-top i {
+ 
+  font-size: 60px;
+ 
+}
 
